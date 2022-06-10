@@ -1,621 +1,415 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
-}
-
-p {
-    margin-bottom: 0rem;
-}
-
-/* Logo */
-
-.header {
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 7.9rem;
-    padding: 0 20px;
-}
-
-.logo :hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-}
-
-.header .logo {
-    margin-right: auto;
-}
-.header .logo img {
-    height: 6rem;
-    width: auto;
-}
-/* Fin logo */
-
-/* Barra de navegacion */
-.header {
-    height: 10rem;
-}
-
-.header .enlaces li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.header .enlaces a {
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-}
-
-.enlaces {
-    margin-bottom: auto;
-}
-
-/* Menu hamburguesa*/
-
-.container-fluid {
-    display: flex;
-    justify-content: end;
-    background-color: black;
-}
-
-.navbar-toggler {
-    background-color: rgb(0, 0, 0);
-}
-
-.navbar {
-    background-color: black;
-}
-
-.nav-dark {
-    background-color: black;
-}
-
-/* Fin menu hamburguesa */
-
-/* Fin barra de navegacion */
-
-.principal {
-    background-color: rgb(59, 59, 59);
-}
-
-.titulo {
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-    font-weight: 500;
-}
-
-/* Primer section */
-
-.d-block {
-    width: 70rem;
-    height: 34.4rem;
-}
-
-.col-12 {
-    font-size: 1.1rem;
-    color: white;
-}
-
-/* Fin primer section */
-
-/* Footer */
-.redes {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: auto;
-}
-
-.redesSociales {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
-
-.redesSociales i{
-    font-size: 2rem;
-    padding: 10px 20px;
-    height: 9.2vh;
-}
-
-.redesSociales i :hover {
-    transform: rotate(360deg);
-    transition: 1.5s;
-    -webkit-transition: 1.5s;
-    -moz-transition: 1.5s;
-    -ms-transition: 1.5s;
-    -o-transition: 1.5s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-}
-
-.instagram {
-    width: 2.3rem;
-}
-
-.spotify {
-    width: 2.3rem;
-}
-
-.youtube {
-    width: 2.3rem;
-}
-
-.derechos {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 1.3rem;
-    height: 4.3rem;
-}
-/* Fin footer */
-
-/* Integrantes */
-
-/* Contenedor */
-.container-fluid-dos {
-    display: flex;
-    justify-content: space-around;
-}
-
-.row {
-    width: 100%;
-    justify-content: space-around;
-}
-/* Imagenes integrantes */
-.cardImg1 {
-    width: 100%;
-    height: 22.4rem;
-    margin: 0.5rem;
-}
-
-.cardImg2 {
-    width: 100%;
-    height: 24.1rem;
-    margin: 0.5rem;
-}
-
-.cardImg3 {
-    width: 100%;
-    height: 24.1rem;
-    margin: 0.5rem;
-}
-
-.cardImg4 {
-    width: 100%;
-    height: 24.1rem;
-    margin: 0.5rem;
-}
-
-
-.cardImg5 {
-    width: 100%;
-    height: 24.1rem;
-    margin: 0.5rem;
-}
-
-.card {
-    background-color: rgb(59, 59, 59);
-    border: 0px rgb(0, 0, 0) solid;
-}
-
-.cardText {
-    color: white;
-    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
-}
-/* Fin imagenes de instegrantes */
-/* Fin integrantes */
-
-/* Discografia */
-
-
-/* Titulos de discos */
-
-.contenedor3 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 6%;
-    grid-gap: 3rem;
-    justify-content: space-evenly;
-}
-
-.contenedor3 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.nombreAlbum{
-    color: white;
-    margin: 0px 10px;
-    font-size: 1.4rem;
-    text-align: center;
-}
-
-/* Fin titulo de discos */
-
-/* Imagenes de discos */
-
-.imagenUno {
-    width: 25rem;
-    height: 20rem;
-}
-
-.imagenDos {
-    width: 25rem;
-    height: 20rem;
-}
-
-.imagenTres {
-    width: 25rem;
-    height: 20rem;
-}
-
-.imagenCuatro {
-    width: 25rem;
-    height: 20rem;
-}
-
-.imagenCinco {
-    width: 25rem;
-    height: 20rem;
-}
-
-.imagenSeis {
-    width: 25rem;
-    height: 20rem;
-}
-
-.imagenSiete {
-    width: 25rem;
-    height: 20rem;
-    margin-bottom: 1rem;
-}
-
-/* Fin imagen de discos */
-/* Fin discografia */
-
-
-/* Conciertos */
-
-.contenedor4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: space-around;
-}
-
-.contenedor4 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.imagen {
-    display: grid;
-    justify-items: center;
-}
-
-.concierto1 {
-    margin: 3.5rem 0;
-    width: 40rem;
-    justify-self: center;
-}
-
-.concierto2 {
-    margin: 3.5rem 0;
-    width: 40rem;
-}
-
-.concierto3 {
-    margin: 3.5rem 0;
-    width: 40rem;
-}
-
-/* Estadio informacion */
-
-.conciertoPrague {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 10px;
-}
-
-.conciertoLisboa {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 10px;
-}
-
-.conciertoVoa {
-    color: white;
-    text-align: center;
-    font-size: 1-5rem;
-    margin-top: 10px;
-}
-
-/* Estadio informacion */
-
-/* Ubicacion del concierto */
-.ubicacion1 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.ubicacion2 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.ubicacion3 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-/* Fin ubicacion del concierto */
-
-/* Horario del concierto */
-.horario1 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.horario2 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.horario3 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-/* Fin horario concierto */
-
-/* Precios */
-
-.precio1 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.precio2 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.precio3 {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-/* Fin precios */
-
-.botonCompra:hover {
-    background-color: rgb(155, 155, 155);
-}
-
-.boton {
-    display: grid;
-    justify-items: center;
-    margin: 32px 10px;
-}
-
-/* Fin botones de compra */
-
-/* Contactanos */
-.principalContactanos {
-    height: 80vh;
-    background-color: rgb(59, 59, 59);
-}
-
-.novedades {
-    color: white;
-    text-align: center;
-    margin-top: 3rem;
-}
-
-form {
-    display: grid;
-}
-
-fieldset {
-    text-align: center;
-    display: grid;
-    justify-items: center;
-    margin: 10px;
-    border: 2px solid rgb(255, 255, 255);
-}
-
-.textosFieldset {
-    color: rgb(255, 255, 255);
-    margin: auto;
-    display: grid;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.tamaño {
-    font-size: 1.3rem;
-    margin: 10px;
-}
-
-label {
-    display: block;
-}
-
-input {
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
-    border: none;
-    width: 20rem;
-    height: 2rem;
-    text-align: center;
-}
-
-.enviar {
-    margin: 20px 10px;
-}
-
-input::placeholder {
-    padding-left: auto;
-}
-
-.botonEnviar:hover {
-    background-color: rgb(155, 155, 155);
-}
-
-/* Fin contactanos */
-
+@charset "UTF-8";
 /* Medias */
-
 /* Inicio */
+@media screen and (max-width: 465px) {
+  .header .logo {
+    display: none; }
+  .header .enlace ul {
+    text-align: center; } }
 
-@media screen and (max-width: 465px){
-    .header .logo{
-        display: none;
-    }
-    .header .enlace ul {
-        text-align: center;
-    }
-}
+@media screen and (max-width: 768px) {
+  .header .enlaces a {
+    font-size: 1.3rem; } }
 
-@media screen and (max-width: 768px){
-    .header .enlaces a {
-        font-size: 1.3rem;;
-    }
-}
+@media screen and (max-width: 425px) {
+  .titulo {
+    font-size: 2.3rem; } }
 
-@media screen and (max-width: 425px){
-    .titulo {
-        font-size: 2.3rem;
-    }
-}
-@media screen and (max-width: 375px){
-    .titulo {
-        font-size: 2.1rem;
-    }
-}
+@media screen and (max-width: 375px) {
+  .titulo {
+    font-size: 2.1rem; } }
 
-@media screen and (max-width: 1242px){
-    nav {
-        display: none;
-    }
-}
+@media screen and (max-width: 1242px) {
+  nav {
+    display: none; } }
 
-@media screen and (min-width: 1241px){
-    .container-fluid {
-        display: none;}
-}
+@media screen and (min-width: 1241px) {
+  .container-fluid {
+    display: none; } }
 
-@media screen and (max-width: 320px){
-    .titulo {
-        font-size: 1.8rem;
-    }
-}
+@media screen and (max-width: 320px) {
+  .titulo {
+    font-size: 1.8rem; } }
 
-@media screen and (max-width: 425px){
-    .d-block {
-        height: 15rem;
-    }
-}
-
-
+@media screen and (max-width: 425px) {
+  .d-block {
+    height: 15rem; } }
 
 /* Fin inicio*/
-
 /* Footer */
-
-@media screen and (max-width: 376px){
-    .derechos {
-        height: auto;
-    }
-}
+@media screen and (max-width: 376px) {
+  .derechos {
+    height: auto; } }
 
 /* Discografia */
-
-@media screen and (max-width: 1024px){
-    .contenedor3 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        justify-items: center;
-    }
-}
+@media screen and (max-width: 1024px) {
+  .contenedor3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center; } }
 
 /* Imagenes discos */
+@media screen and (max-width: 375px) {
+  .imagenUno, .imagenDos, .imagenTres, .imagenCuatro, .imagenCinco, .imagenSeis, .imagenSiete {
+    width: 18.7rem; } }
 
-@media screen and (max-width: 375px){
-    .imagenUno, .imagenDos, .imagenTres, .imagenCuatro, .imagenCinco, .imagenSeis, .imagenSiete {
-        width: 18.7rem;
-    }
-}
+@media screen and (max-width: 375px) {
+  .imagenUno {
+    margin-left: 2.2rem; } }
 
-@media screen and (max-width: 375px){
-    .imagenUno {
-        margin-left: 2.2rem;
-    }
-}
+@media screen and (max-width: 320px) {
+  .imagenUno {
+    margin-left: 0.5rem; } }
 
-@media screen and (max-width: 320px){
-    .imagenUno {
-        margin-left: 0.5rem;
-    }
-}
+@media screen and (max-width: 425px) {
+  .row {
+    justify-content: center; } }
 
-@media screen and (max-width: 425px){
-    .row {
-        justify-content: center;
-    }
-}
+@media screen and (max-width: 375px) {
+  .row {
+    justify-content: center; } }
 
-@media screen and (max-width: 375px){
-    .row {
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .row {
-        justify-content: center;
-    }
-}
+@media screen and (max-width: 320px) {
+  .row {
+    justify-content: center; } }
 
 /* Fin discografia */
-
 /* Contactanos */
+@media screen and (min-width: 320px) {
+  input {
+    width: 18rem; } }
 
-@media screen and (min-width: 320px){
-    input {
-        width: 18rem;
-    }
-}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', 'Courier New', Courier, monospace; }
+
+p {
+  margin-bottom: 0rem; }
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 7.9rem;
+  padding: 0 20px;
+  height: 10rem; }
+  .header .logo {
+    margin-right: auto; }
+    .header .logo img {
+      height: 6rem;
+      width: auto; }
+  .header .enlaces li {
+    display: inline-block;
+    padding: 0 20px; }
+  .header .enlaces a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none; }
+
+.logo :hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+.enlaces {
+  margin-bottom: auto; }
+
+.container-fluid {
+  display: flex;
+  justify-content: end;
+  background-color: black; }
+
+.navbar-toggler {
+  background-color: black; }
+
+.navbar {
+  background-color: black; }
+
+.nav-dark {
+  background-color: black; }
+
+.principal {
+  background-color: #3b3b3b; }
+
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: 500; }
+
+.d-block {
+  width: 70rem;
+  height: 34.4rem; }
+
+.col-12 {
+  font-size: 1.1rem;
+  color: white; }
+
+.redes {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto; }
+
+.redesSociales {
+  display: flex;
+  justify-content: center;
+  background-color: black; }
+  .redesSociales i {
+    font-size: 2rem;
+    padding: 10px 20px;
+    height: 9.2vh; }
+    .redesSociales i :hover {
+      transform: rotate(360deg);
+      transition: 1.5s;
+      -webkit-transition: 1.5s;
+      -moz-transition: 1.5s;
+      -ms-transition: 1.5s;
+      -o-transition: 1.5s;
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg); }
+
+.instagram {
+  width: 2.3rem; }
+
+.spotify {
+  width: 2.3rem; }
+
+.youtube {
+  width: 2.3rem; }
+
+.derechos {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  height: 4.3rem; }
+
+.container-fluid-dos {
+  display: flex;
+  justify-content: space-around; }
+
+.row {
+  width: 100%;
+  justify-content: space-around; }
+
+.cardImg1 {
+  width: 100%;
+  height: 22.4rem;
+  margin: 0.5rem; }
+
+.cardImg2 {
+  width: 100%;
+  height: 24.1rem;
+  margin: 0.5rem; }
+
+.cardImg3 {
+  width: 100%;
+  height: 24.1rem;
+  margin: 0.5rem; }
+
+.cardImg4 {
+  width: 100%;
+  height: 24.1rem;
+  margin: 0.5rem; }
+
+.cardImg5 {
+  width: 100%;
+  height: 24.1rem;
+  margin: 0.5rem; }
+
+.card {
+  background-color: black;
+  background-color: #3b3b3b; }
+
+.cardText {
+  color: white;
+  font-family: 'Roboto Mono', 'Courier New', Courier, monospace; }
+
+.contenedor3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 6%;
+  grid-gap: 3rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap; }
+
+.nombreAlbum {
+  color: white;
+  margin: 0px 10px;
+  font-size: 1.4rem;
+  text-align: center; }
+
+.imagen {
+  width: 25rem;
+  height: 20rem; }
+
+.imagenSiete {
+  width: 25rem;
+  height: 20rem;
+  margin-bottom: 1rem; }
+
+.contenedor4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap; }
+
+.imagenDiv {
+  display: grid;
+  justify-items: center; }
+
+.concierto1 {
+  margin: 3.5rem 0;
+  width: 40rem;
+  justify-self: center; }
+
+.concierto2 {
+  margin: 3.5rem 0;
+  width: 40rem; }
+
+.concierto3 {
+  margin: 3.5rem 0;
+  width: 40rem; }
+
+.conciertoPrague {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px; }
+
+.conciertoLisboa {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px; }
+
+.conciertoVoa {
+  color: white;
+  text-align: center;
+  font-size: -4rem;
+  margin-top: 10px; }
+
+.ubicacion1 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.ubicacion2 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.ubicacion3 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.horario1 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.horario2 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.horario3 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.precio1 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.precio2 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.precio3 {
+  color: white;
+  text-align: center;
+  margin-top: 10px; }
+
+.botonCompra:hover {
+  background-color: rgb(155, 155, 155); }
+
+.boton {
+  display: grid;
+  justify-items: center;
+  margin: 32px 10px; }
+
+.principalContactanos {
+  height: 80vh;
+  background-color: #3b3b3b; }
+
+.novedades {
+  color: white;
+  text-align: center;
+  margin-top: 3rem; }
+
+form {
+  display: grid; }
+
+fieldset {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  margin: 10px;
+  border: 2px solid white; }
+
+.textosFieldset {
+  color: white;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  margin-top: 3rem; }
+
+.tamaño {
+  font-size: 1.3rem;
+  margin: 10px; }
+
+label {
+  display: block; }
+
+input {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border: none;
+  width: 20rem;
+  height: 2rem;
+  text-align: center; }
+  input::placeholder {
+    padding-left: auto; }
+
+.enviar {
+  margin: 20px 10px; }
+
+.botonEnviar:hover {
+  background-color: rgb(155, 155, 155); }

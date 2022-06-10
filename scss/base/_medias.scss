@@ -1,0 +1,124 @@
+/* Medias */
+/* Inicio */
+
+@media screen and (max-width: 465px){
+    .header .logo{
+        display: none;
+    }
+    .header .enlace ul {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header .enlaces a {
+        font-size: 1.3rem;;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .titulo {
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .titulo {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 1242px){
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1241px){
+    .container-fluid {
+        display: none;}
+}
+
+@media screen and (max-width: 320px){
+    .titulo {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .d-block {
+        height: 15rem;
+    }
+}
+
+
+
+/* Fin inicio*/
+
+/* Footer */
+
+@media screen and (max-width: 376px){
+    .derechos {
+        height: auto;
+    }
+}
+
+/* Discografia */
+
+@media screen and (max-width: 1024px){
+    .contenedor3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: center;
+    }
+}
+
+/* Imagenes discos */
+
+@media screen and (max-width: 375px){
+    .imagenUno, .imagenDos, .imagenTres, .imagenCuatro, .imagenCinco, .imagenSeis, .imagenSiete {
+        width: 18.7rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .imagenUno {
+        margin-left: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .imagenUno {
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .row {
+        justify-content: center;
+    }
+}
+
+/* Fin discografia */
+
+/* Contactanos */
+
+@media screen and (min-width: 320px){
+    input {
+        width: 18rem;
+    }
+}
