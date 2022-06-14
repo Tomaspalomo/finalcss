@@ -1,2 +1,0 @@
-Modificacion de los meta, se arreglaron algunas imagenes, se aplico sass para los estilos junto con nestin, mixin y extend.
-Se modifico el apartado de concierto por un error de adaptacion. borre el anterior proyecto porque no se me hacia responsive en S y M, pense que era porque pase mal los archivos a sass pero es el mismo sass el que me modifica todo 
